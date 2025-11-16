@@ -52,9 +52,9 @@ def splitdataset(balance_data):
 
 This function trains your model considering 'gini' as criteria
 This is the first time we use Desicion Tree so let's figure out about their parameters 
-``criterion`` : Here we define the criteria.It determines how the model picks the best question.
-``max_leaf_nodes`` : Here we set a maximum for leaf nodes(or final answers) to prevent overfitting.
-``max_depth`` : Here we define the maximum questions in one complete path from start to finish
+- ``criterion`` : Here we define the criteria.It determines how the model picks the best question.
+- ``max_leaf_nodes`` : Here we set a maximum for leaf nodes(or final answers) to prevent overfitting.
+- ``max_depth`` : Here we define the maximum questions in one complete path from start to finish
 
 In this function we train the model
 - using ``'gini'`` criterion
